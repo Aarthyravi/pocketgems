@@ -1,1 +1,64 @@
 
+body {
+  max-width: 950px;
+}
+
+.row{
+
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+#rewards {
+   height: 100%
+   width:300px;
+}
+
+.card{
+  width: 150px;
+  height: 220px;
+  margin-left: 5px !important;
+}
+.container{
+  margin-left: -10px;
+}
+
+#mythic {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.tab {
+    margin-left: 0px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.modal-content {
+  width: 250px;
+}
