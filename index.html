@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Navigation Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+<body>
+
+<div class="tab">
+  <div class="row">
+  <button class="tablinks" onclick="myFunction(event, 'battle')">Battle</button>
+  <button class="tablinks" onclick="myFunction(event, 'prizes')">Prizes & Ranks</button>
+  <button class="tablinks" onclick="myFunction(event,'rewards')">Rewards</button>
+  <button class="tablinks" onclick="myFunction(event, 'armoury')">Armoury</button>
+</div>
+</div>
+
+  <div id="battle" class="tabcontent">
+    Coming Soon
+  </div>
+
+  <div id="prizes" class="tabcontent">
+    Coming Soon
+  </div>
+
+  <div id="rewards" class="tabcontent">
+     <h3 align ="center"> Fall Season </h3>
+     <div class="container">
+       <div class="row">
+
+          <div class="card">
+              <figure>
+                <a href="legen1.html">
+                <img class="card-img-top img-fluid" src="img/ice_golem.png" alt="Card image cap">
+                <figcaption align="center">Legendary 1</figcaption>
+              </a>
+             </figure>
+          </div>
+
+            <div class="card">
+             <figure>
+               <img class="card-img-top img-fluid" src="img/minion_horde.png" alt="Card image cap">
+                <figcaption align="center">Legendary 2</figcaption>
+             </figure>
+           </div>
+
+            <div class="card">
+              <figure>
+                <img class="card-img-top img-fluid" src="img/rage_barbarian.png" alt="Card image cap">
+                  <figcaption align="center">Legendary 3</figcaption>
+              </figure>
+            </div>
+
+            <div id="mythic" class="card">
+              <figure>
+                <img class="card-img-top img-fluid" src="img/unnamed.png" alt="Card image cap">
+                <figcaption align="center">Mythic<br>
+
+                  <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                      <i class="fa fa-lock"></i>info
+                    </button>
+
+                    <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                         <div class="modal-body">
+                           <h5 class="modal-title" id="exampleModalLabel"></h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                           </button>
+                          <p>Item Locked</p>
+                           <p>Complete the 3 Legendary branches to unlock </p>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+
+                </figcaption>
+              </figure>
+            </div>
+
+            <div id="discount" class="card">
+              <figure>
+                <span class="badge">17</span>
+                <img class="card-img-top img-fluid" src="img/money.png" alt="Card image cap">
+                <figcaption align="center"><br>Discount<br></figcaption>
+              </figure>
+            </div>
+
+        </div>
+     </div>
+  </div>
+
+ <div id="armoury" class="tabcontent">
+   Coming Soon
+ </div>
+
+</body>
+<script src="js/app.js"></script>
+</html>
